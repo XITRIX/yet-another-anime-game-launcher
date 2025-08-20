@@ -1,3 +1,4 @@
+import { en } from "./en";
 import { zh_CN } from "./zh_CN";
 
 export const th_TH: typeof zh_CN = {
@@ -111,4 +112,5 @@ export const th_TH: typeof zh_CN = {
     "เวอร์ชันที่เลือกคือเวอร์ชันจากชุมชน ซึ่งไม่ได้รับการสนับสนุนอย่างเป็นทางการ กรุณาอย่ารายงานปัญหาใดๆ มา",
 
   SETTING_BLOCK_NET: "Launch Fix(block hosts)",
+  SETTING_LICENSES: en.SETTING_LICENSES,
 };
